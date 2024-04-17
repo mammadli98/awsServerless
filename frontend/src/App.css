@@ -1,0 +1,33 @@
+/* App.css */
+
+.navbar {
+    background-color: #007bff; /* Navbar background color */
+    padding: 10px 0; /* Add some padding around the navigation links */
+  }
+  
+  .navbar ul {
+    list-style-type: none; /* Remove default list styles */
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar li {
+    display: inline; /* Display navigation links inline */
+    margin-right: 20px; /* Add some space between navigation links */
+  }
+  
+  .navbar li:last-child {
+    margin-right: 0; /* Remove margin from the last navigation link */
+  }
+  
+  .navbar a {
+    color: #fff; /* Link text color */
+    text-decoration: none; /* Remove default underline */
+    font-size: 18px; /* Adjust font size */
+    font-weight: bold; /* Make text bold */
+  }
+  
+  .navbar a:hover {
+    text-decoration: underline; /* Underline the link on hover */
+  }
+  
